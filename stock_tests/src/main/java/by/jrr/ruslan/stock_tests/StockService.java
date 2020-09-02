@@ -12,5 +12,6 @@ public class StockService {
     public String printInformation(Stock stock){
         return  "Company: "+ stock.getCompanyName()+". minimal price was - "+stock.getMinPrice()+" USD, maximum price was - "+stock.getMaxPrice()+"USD, ACTUAL price is "+stock.getActualPrice()+"USD";
        }
+
 }
 

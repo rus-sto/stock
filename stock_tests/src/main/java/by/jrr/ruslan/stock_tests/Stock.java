@@ -70,7 +70,6 @@ public class Stock {
                 ", maxPrice=" + maxPrice +
                 '}';
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(companyName, actualPrice, minPrice, maxPrice);

@@ -13,7 +13,6 @@ public class StockTest {
         String actual = stock.getCompanyName();
         assertEquals(expected,actual);
     }
-
     @Test
     public void getActualPrice() {
         Stock stock = new Stock("Mac",30.0);

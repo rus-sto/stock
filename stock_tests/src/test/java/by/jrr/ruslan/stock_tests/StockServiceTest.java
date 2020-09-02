@@ -1,7 +1,6 @@
 package by.jrr.ruslan.stock_tests;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class StockServiceTest {
@@ -20,6 +19,7 @@ public class StockServiceTest {
             assertEquals(expectedMaxPrice[i], actualMaxPrice, 0);
             assertEquals(expectedMinPrice[i], actualMinPrice, 0);
         }
+
     }
     @Test
     public void printInformation(){
